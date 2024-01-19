@@ -1,17 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    {{!-- <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> --}}
+    {{!--
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> --}}
     <title>Document</title>
 </head>
-<body>
-    
-    <button class="btn btn-success">awesome</button>
 
-<script src="../jq/jquery.js"></script>
-<script src="../js/bootstrap.js"></script>
+<body>
+    {{>navbar}}
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-10 col012 mx-auto">
+                <div class="row">
+                    <div class="col-md-6 col-12 hero-text order-md-0 order-1">
+                        <h1>WE WILL HELP YOU TO</h1>
+                        <h1>GROW YOUR BUSINESS</h1>
+                        <P>We Are The Team Of<span class="bold-style">Professional Developers</span></P>
+                        <button class="btn-style btn-primary">Read more</button>
+                    </div>
+                    <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../jq/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
 </body>
+
 </html>
